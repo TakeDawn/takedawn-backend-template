@@ -6,8 +6,12 @@ Simply click the **Use this template** button above or clone the repo directly.
 
 ## Configuration
 
+### package.json
+Don't forget to edit and/or update the `package.json` file with your information.
+
 ### .env file
-Your basic .env file should look like this :  
+You **must** create your own basic`.env` at the root of the project.  
+This file should look like this :  
 ```
 PORT=yourPort
 CORS_WHITELIST=yourWhiteList
@@ -18,5 +22,5 @@ DB_PASSWORD=databasePassword
 ```
 
 ### migrations
-By default, the kysely implementation will look for a `migration` folder at the root of the project.  
+By default, the `kysely` implementation will look for a `migration` folder at the root of the project.  
 If you want to locate your migration folder somewhere else, simply change the path of the folder in `src/global/database/index.ts`.
