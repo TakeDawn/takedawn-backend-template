@@ -11,4 +11,5 @@ node_modules
 commit-message-validation.sh
 package.json
 package-lock.json
+README.md
 tsconfig.json
