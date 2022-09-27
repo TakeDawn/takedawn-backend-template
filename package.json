@@ -9,17 +9,17 @@
     "express",
     "typescript"
   ],
-  "homepage": "",
+  "homepage": "https://github.com/TakeDawn/takedawn-backend-template",
   "bugs": {
-    "url": "",
-    "email": ""
+    "url": "https://github.com/TakeDawn/takedawn-backend-template/issues",
+    "email": "thoma.dietrich@gmail.com"
   },
   "license": "MIT",
   "author": "Thomas Dietrich <thoma.dietrich@gmail.com> (https://www.thomasdietrich.fr/)",
   "main": "src/index.ts",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/TakeDawn/takedawn-backend-template.git"
   },
   "scripts": {
     "prepare": "husky install",
