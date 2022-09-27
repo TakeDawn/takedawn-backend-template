@@ -1,0 +1,62 @@
+{
+  "name": "takedawn-backend-template",
+  "version": "0.0.1",
+  "description": "A useful template to get a Node - Express - TypeScript project sarted.",
+  "keywords": [
+    "template",
+    "backend",
+    "node",
+    "express",
+    "typescript"
+  ],
+  "homepage": "",
+  "bugs": {
+    "url": "",
+    "email": ""
+  },
+  "license": "MIT",
+  "author": "Thomas Dietrich <thoma.dietrich@gmail.com> (https://www.thomasdietrich.fr/)",
+  "main": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "dev": "nodemon -r tsconfig-paths/register"
+  },
+  "dependencies": {
+    "colorette": "^2.0.19",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "kysely": "^0.21.6",
+    "lodash": "^4.17.21",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/lodash": "^4.14.185",
+    "@types/node": "^18.7.23",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1",
+    "tsconfig-paths": "^4.1.0",
+    "typescript": "^4.8.3"
+  },
+  "engines": {
+    "node": ">=16.17.0"
+  },
+  "lint-staged": {
+    "./src/**": [
+      "eslint --fix",
+      "prettier --write --ignore-unknown"
+    ]
+  }
+}

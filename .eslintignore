@@ -1,0 +1,14 @@
+.husky
+.idea
+node_modules
+.editorconfig
+.env
+.eslintignore
+.eslintrc.js
+.gitignore
+.prettierignore
+.prettierrc.json
+commit-message-validation.sh
+package.json
+package-lock.json
+tsconfig.json
