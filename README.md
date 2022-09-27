@@ -10,7 +10,7 @@ Simply click the **Use this template** button above or clone the repo directly.
 Don't forget to edit and/or update the `package.json` file with your information.
 
 ### .env file
-You **must** create your own basic `.env` at the root of the project.  
+You **must** create your own basic `.env` file at the root of the project.  
 This file should look like this :  
 ```
 PORT=yourPort
