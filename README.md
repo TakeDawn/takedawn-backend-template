@@ -22,5 +22,6 @@ DB_PASSWORD=databasePassword
 ```
 
 ### migrations
-By default, the `kysely` implementation will look for a `migration` folder at the root of the project.  
-If you want to locate your migration folder somewhere else, simply change the path of the folder in `src/global/database/index.ts`.
+By default, the `kysely` implementation will look for a `migrations` folder at the root of the project.  
+If you wish to locate your migration folder somewhere else, simply change the path of the folder in  
+`src/global/database/index.ts`.
