@@ -6,6 +6,9 @@ Simply click the **Use this template** button above or clone the repo directly.
 
 ## Configuration
 
+### Global
+You need to have `ts-node` installed globally: `npm install -g ts-node`
+
 ### package.json
 Don't forget to edit and/or update the `package.json` file with your information.
 
